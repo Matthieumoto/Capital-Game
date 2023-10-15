@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    color: rgb(255, 255, 255);
+    overflow: hidden; 
+}
+
+@font-face {
+    font-family: 'Grafton';
+    src: url('font/zt-grafton-regular.ttf') format('truetype');
+}
+
+li {
+    z-index: 1;
+    display : column;
+}
+
+@keyframes valise1 {
+    0% {
+      transform: rotate(-10deg);
+    }
+    100% {
+      transform: rotate(10deg);
+    }
+}
+
+@keyframes valise2 {
+    0% {
+      transform: rotate(10deg);
+    }
+    100% {
+      transform: rotate(-10deg);
+    }
+}
+
+@media screen and (max-width:1444px) {
+    .sect1 {
+        margin-top: -71px;
+        margin-bottom: -5px;
+        background: rgb(0, 60, 255);
+        height: 60vh;
+        z-index: -1;
+    }
+
+    .titre {
+        text-align: center;
+        font-size: 80px;
+        font-family: 'Grafton';
+        margin-bottom: -10px;
+    }
+
+    .valise1{
+        height: 300px;
+        width: 300px;
+        float: left;
+        margin-top: -5%;
+        margin-bottom: -10%;
+        z-index: 0;
+        animation: valise1 3s linear alternate infinite;
+        transform-origin: center;
+    }
+
+    .valise2{
+        height: 300px;
+        width: 300px;
+        float: right;
+        margin-top: -5%;
+        margin-bottom: -10%;
+        z-index: 0;
+        animation: valise2 3s linear alternate infinite;
+        transform-origin: center;
+    }
+
+    ul {
+        list-style-type : none;
+        text-align: center;
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width:1444px) {
+    .sect1 {
+        margin-top: -90px;
+        margin-bottom: -5px;
+        background: rgb(0, 60, 255);
+        height: 50vh;
+        z-index: -1;
+    }
+
+    .titre {
+        text-align: center;
+        font-size: 100px;
+        font-family: 'Grafton';
+    }
+
+    .valise1{
+        float: left;
+        margin-top: -20%;
+        margin-bottom: -10%;
+        z-index: 0;
+        animation: valise1 3s linear alternate infinite;
+        transform-origin: center;
+    }
+
+    .valise2{
+        float: right;
+        margin-top: -20%;
+        margin-bottom: -10%;
+        z-index: 0;
+        animation: valise2 3s linear alternate infinite;
+        transform-origin: center;
+    }
+
+    ul {
+        list-style-type : none;
+        text-align: center;
+        font-size: 30px;
+    }
+}

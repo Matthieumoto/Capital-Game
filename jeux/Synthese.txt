@@ -1,0 +1,18 @@
+Synthese:
+
+Adam : 
+   - Création de la classe Game,
+   - Création de la classe menu,
+   - Création de la classe Platforme,
+   - Création de la classe Settings,
+   - Création de la classe Projectile,
+   - Création du fichier module.bat
+
+Matthieu :
+   - Graphismes ( Paint ) 
+   - Game design ( Idée du jeu et de sa mécanique )
+   - Site Web ( index.html ) et mecanique du score
+   - Javascript ( script.js )
+   - CSS ( style.css )
+   - Création de la classe App
+   - Testeur professionel de jeu et chasseur de bugs ( beaucoup )
